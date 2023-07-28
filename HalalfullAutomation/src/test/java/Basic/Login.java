@@ -11,7 +11,7 @@ public class Login {
 
 	public static void main(String[] args) throws IOException, InterruptedException{
 		// TODO Auto-generated method stub
-		FileInputStream file=new FileInputStream("\\Users\\nanth\\eclipse-workspace\\HalalfullAutomation\\src\\test\\java\\com\\Default_Details\\Details");
+		FileInputStream file=new FileInputStream("D:\\selenium\\Halalfull-testing\\HalalfullAutomation\\src\\test\\java\\com\\Default_Details\\Details");
 		Properties prop=new Properties();
 		prop.load(file);
 		WebDriver driver=new ChromeDriver();
